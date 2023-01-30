@@ -2,7 +2,7 @@
 name: PHP
 
 on:
-   workflow_dispatch:
+  workflow_dispatch:
   schedule:
     - cron: '5,15,25,35,45,55 * * * *'
 #  push
